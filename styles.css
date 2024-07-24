@@ -1,0 +1,99 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    margin-top: -20vh;
+    position: fixed;
+}
+
+.info {
+    flex: 2;
+    text-align: left;
+    border-right: #00ff6a 0.3vh solid; 
+}
+
+.info h1 {
+    font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-top: 4vh;
+}
+
+.info p {
+    margin: 0;
+    font-size: 30px;
+    line-height: 1.2;
+    padding-right: 10%;
+}
+
+.login {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.login h2 {
+    margin-bottom: 20px;
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00ff6a;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #01682c;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+button:hover {
+    background-color: #00ff6a;
+}
+
+#errorMessage {
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
